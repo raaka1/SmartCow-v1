@@ -178,18 +178,30 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 22px;
+    font-size: 5px;
+    color:#49b6c2
+}
+
+
+header .intro-text .intro-lead-in-background {
     line-height: 22px;
     margin-bottom: 25px;
-    color: #49b6c2
+    background-color :#F9FBFF;
+    -khtml-opacity:.50;
+    -moz-opacity:.50;
+    -ms-filter:”alpha(opacity=50)”;
+     filter:alpha(opacity=50);
+     filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+     opacity:.50;
 }
+
 header .intro-text .intro-heading {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 50px;
     line-height: 50px;
-    margin-bottom: 25px
+    margin-bottom: 0px
 }
 @media (min-width:768px) {
     header .intro-text {
