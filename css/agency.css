@@ -89,6 +89,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #fed136;
     background-color: #fff
 }
+.navbar {
+    min-height: 120px;
+}
 .navbar-default {
     background-color: #222;
     border-color: transparent
@@ -116,9 +119,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .nav li a {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 800;
     letter-spacing: 1px;
-    color: #fff
+    color: #222;
+    height: 100%;
 }
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
     color: #fed136;
@@ -135,13 +140,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width:768px) {
     .navbar-default {
-        background-color: transparent;
-        padding: 25px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-        border: 0
-    }
+        background-color: #fff;
+        line-height: 120px;
+        border-bottom: 3px solid #fed136;
+}
     .navbar-default .navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
@@ -152,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
         border-radius: 3px
     }
     .navbar-default.navbar-shrink {
-        background-color: #222;
+        background-color: #fff;
         padding: 10px 0
     }
     .navbar-default.navbar-shrink .navbar-brand {
@@ -177,25 +179,28 @@ header .intro-text {
 }
 header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
     font-size: 5px;
-    color:#49b6c2
+    color:#fed136;
+    margin-top: -50px;
+}
+header .intro-text .intro-lead-in span {
+    font-size: 24px;
+    font-style: italic;
+    font-family: serif;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
 
 
 header .intro-text .intro-lead-in-background {
     line-height: 22px;
     margin-bottom: 25px;
-    background-color :#F9FBFF;
-    -khtml-opacity:.50;
-    -moz-opacity:.50;
-    -ms-filter:”alpha(opacity=50)”;
-     filter:alpha(opacity=50);
-     filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
-     opacity:.50;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 1px;
 }
 
 header .intro-text .intro-heading {
+    background-color: rgba(73, 182, 194, 0.9);
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -210,7 +215,6 @@ header .intro-text .intro-heading {
     }
     header .intro-text .intro-lead-in {
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-style: italic;
         font-size: 40px;
         line-height: 40px;
         margin-bottom: 25px
