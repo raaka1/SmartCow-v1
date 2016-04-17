@@ -154,13 +154,6 @@ background-color: rgba(0, 0, 0, 0.5);
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px
     }
-    .navbar-default.navbar-shrink {
-        background-color: #fff;
-        padding: 10px 0
-    }
-    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em
-    }
 }
 header {
     background-image: url(../img/header-bg.jpg);
@@ -679,4 +672,8 @@ body {
 #gmap_canvas {
     height: 200px !important;
     width: 100% !important;
+}
+.smartcow-logo {
+     width:80px;
+     height: 80px;
 }
