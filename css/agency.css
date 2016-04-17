@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fff
 }
 .navbar {
-    min-height: 77px;
+    min-height: 120px;
 }
 .navbar-default {
 
@@ -125,6 +125,9 @@ background-color: rgba(0, 0, 0, 0.5);
     letter-spacing: 1px;
     color: #222;
     height: 100%;
+    line-height: 120px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
     color: #fed136;
@@ -674,6 +677,6 @@ body {
     width: 100% !important;
 }
 .smartcow-logo {
-     width:80px;
-     height: 80px;
+     width: 90px;
+     height: 90px;
 }
