@@ -92,11 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
     min-height: 120px;
 }
-.navbar-default {
 
-    background-color: rgba(0, 0, 0, 0.5);
-    border-color: transparent
-}
 .navbar-default .navbar-brand {
     color: #fed136;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
