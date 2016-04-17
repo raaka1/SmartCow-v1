@@ -324,6 +324,7 @@ section h3.section-subheading {
     bottom: 0;
     position: absolute;
     content: "";
+    height: 85%;
     width: 2px;
     background-color: #f1f1f1;
     left: 40px;
