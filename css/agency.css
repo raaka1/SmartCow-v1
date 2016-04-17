@@ -676,3 +676,7 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136
 }
+#gmap_canvas {
+    height: 200px !important;
+    width: 100% !important;
+}
