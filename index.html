@@ -391,7 +391,7 @@
                                 <i class="fa fa-key"> Key Id 5B104639</i>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <div class="team-member">
                         <img src="img/team/Annabelle.png" class="img-responsive img-circle" alt="">
                         <h4>Annabelle Kwok</h4><br>
@@ -486,12 +486,12 @@
         <div class="container-fluid" id="contact-id">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>CONTACT US</h1>
+                    <h1 class="section-heading">CONTACT US</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
-                    <ul>
+                <div class="col-md-4">
+                    <ul class="email-list">
                         <li>
                             <i class="fa fa-envelope-o"></i>
                             <a href="mailto:media@smartcow.rocks">media@smartcow.rocks</a>
@@ -508,8 +508,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    <div class="col-md-6">
+                <div class="col-md-8">
                         <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
                         <div>
                             <div id='gmap_canvas'></div>
@@ -525,7 +524,6 @@
                         <script type='text/javascript'>
                             function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(1.352083,103.81983600000001),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(1.352083,103.81983600000001)});infowindow = new google.maps.InfoWindow({content:'<strong>SmartCow</strong><br>Singapore<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
                         </script>
-                    </div>
                 </div>
             </div>
         </div>

@@ -516,10 +516,14 @@ section#contact {
     background-color: #222;
     background-image: url(../img/map-image.png);
     background-position: center;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 section#contact .section-heading {
-    color: #fff
+    text-align: center;
+    color: #fed136;
+    padding-bottom: 15px;
 }
 section#contact .form-group {
     margin-bottom: 25px
@@ -563,6 +567,12 @@ section#contact:-ms-input-placeholder {
 }
 section#contact .text-danger {
     color: #e74c3c
+}
+section#contact .email-list {
+    list-style-type: none;
+}
+section#contact .email-list i {
+    color: #fed136;
 }
 footer {
     padding: 25px 0;
