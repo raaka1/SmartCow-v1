@@ -492,14 +492,14 @@ section h3.section-subheading {
 .team-member p {
     margin-top: 0
 }
-.team-member p a {
+.team-member a {
     transition: color 0.5s ease;
     transition: background-color 0.5s ease;
     color: #FEC503;
     background-color: #000;
     padding: 5px;
 }
-.team-member p a:hover {
+.team-member a:hover {
     transition: color 0.5s ease;
     transition: background-color 0.5s ease;
     color: #000;
