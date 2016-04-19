@@ -697,6 +697,7 @@ body {
 #gmap_canvas {
     height: 300px !important;
     width: 100% !important;
+    border: 3px solid #fed136;
 }
 .smartcow-logo {
      width: 90px;
