@@ -693,7 +693,7 @@ body {
     webkit-tap-highlight-color: #fed136
 }
 #gmap_canvas {
-    height: 200px !important;
+    height: 300px !important;
     width: 100% !important;
 }
 .smartcow-logo {
