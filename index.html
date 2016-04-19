@@ -542,15 +542,13 @@
                                     mapTypeId: google.maps.MapTypeId.ROADMAP
                                 };
                                 map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                                var image = 'logos/Smartcow_maps.png';
                                 marker = new google.maps.Marker({
+                                    position: new google.maps.LatLng(1.352083, 103.81983600000001),
                                     map: map,
-                                    position: new google.maps.LatLng(1.352083, 103.81983600000001)
+                                    icon: image
                                 });
-                                infowindow = new google.maps.InfoWindow({content: '<strong>SmartCow</strong><br>Singapore<br>'});
-                                google.maps.event.addListener(marker, 'click', function() {
-                                    infowindow.open(map, marker);
-                                });
-                                infowindow.open(map, marker);
+
                             }
                             google.maps.event.addDomListener(window, 'load', init_map);
                         </script>
