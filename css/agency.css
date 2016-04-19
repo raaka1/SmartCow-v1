@@ -167,14 +167,15 @@ header {
     color: #fff
 }
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 50px
 }
+
 header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 5px;
+    font-size: 35px;
     color:#fed136;
-    margin-top: -50px;
+    margin-top: 0;
 }
 header .intro-text .intro-lead-in span {
     font-size: 24px;
@@ -210,7 +211,8 @@ header .intro-text .intro-heading {
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 40px;
         line-height: 40px;
-        margin-bottom: 25px
+        margin-bottom: 25px;
+        margin-top: -50px;
     }
     header .intro-text .intro-heading {
         font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -320,7 +322,7 @@ section h3.section-subheading {
     bottom: 0;
     position: absolute;
     content: "";
-    height: 85%;
+    height: 100%;
     width: 2px;
     background-color: #f1f1f1;
     left: 40px;
