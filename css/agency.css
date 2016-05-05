@@ -129,17 +129,24 @@ background-color: rgba(0, 0, 0, 0.5);
     padding-bottom: 0;
 }
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+    transition: color .5s,
+                background-color .5s;
+    background-color: #000;                
     color: #fed136;
     outline: 0
 }
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
+    transition: color .5s,
+                background-color .5s;
+    color: #000;
     background-color: #fed136
 }
 .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #fec503
+    transition: color .5s,
+                background-color .5s;
+    color: #fed136;
+    background-color: #000;
 }
 .nav > li {
     top: 65px;
@@ -155,9 +162,6 @@ background-color: rgba(0, 0, 0, 0.5);
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s
-    }
-    .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px
     }
     .nav > li {
         top: 0;
