@@ -721,3 +721,7 @@ body {
      height: 65px;
      transform: rotate(-7deg);
 }
+.smartcow-logo:hover {
+    transition: transform 2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transform: rotate(7deg);
+}
