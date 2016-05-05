@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fff
 }
 .navbar {
-    min-height: 120px;
+    min-height: 90px;
 }
 .navbar-default {
     background-color: #fff;
@@ -124,7 +124,7 @@ background-color: rgba(0, 0, 0, 0.5);
     letter-spacing: 1px;
     color: #222;
     height: 100%;
-    line-height: 120px;
+    line-height: 90px;
     padding-top: 0;
     padding-bottom: 0;
 }
@@ -141,10 +141,13 @@ background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     background-color: #fec503
 }
+.nav > li {
+    top: 65px;
+}
 @media (min-width:768px) {
     .navbar-default {
         background-color: #fff;
-        line-height: 120px;
+        line-height: 90px;
         border-bottom: 3px solid #fed136;
 }
     .navbar-default .navbar-brand {
@@ -155,6 +158,9 @@ background-color: rgba(0, 0, 0, 0.5);
     }
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px
+    }
+    .nav > li {
+        top: 0;
     }
 }
 header {
@@ -703,7 +709,7 @@ body {
     border: 3px solid #fed136;
 }
 .smartcow-logo {
-     width: 90px;
-     height: 90px;
+     width: 65px;
+     height: 65px;
      transform: rotate(-7deg);
 }
