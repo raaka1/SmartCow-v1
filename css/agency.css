@@ -128,21 +128,21 @@ background-color: rgba(0, 0, 0, 0.5);
     padding-top: 0;
     padding-bottom: 0;
 }
-.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+.navbar-default .nav li a:hover {
     transition: color .5s,
                 background-color .5s;
     background-color: #000;                
     color: #fed136;
     outline: 0
 }
-.navbar-default .navbar-nav>.active>a {
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
     border-radius: 0;
     transition: color .5s,
                 background-color .5s;
     color: #000;
     background-color: #fed136
 }
-.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav>.active>a:hover {
     transition: color .5s,
                 background-color .5s;
     color: #fed136;
@@ -705,7 +705,7 @@ img::-moz-selection {
     background: 0 0
 }
 body {
-    webkit-tap-highlight-color: #fed136
+    -webkit-tap-highlight-color: #fed136
 }
 #gmap_canvas {
     height: 300px !important;
