@@ -702,4 +702,5 @@ body {
 .smartcow-logo {
      width: 90px;
      height: 90px;
+     transform: rotate(-7deg);
 }
