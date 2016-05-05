@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fff
 }
 .btn-xl {
-    color: #fff;
+    color: #000;
     background-color: #fed136;
     border-color: #fed136;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -71,12 +71,16 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     border-radius: 3px;
     font-size: 18px;
-    padding: 20px 40px
+    padding: 20px 40px;
+    border-radius: 0;
 }
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
-    color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01
+    transition: color .5s,
+        background-color .5s,
+        border-color .5s;
+    color: #fed136;
+    background-color: #000;
+    border-color: #fed136;
 }
 .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
     background-image: none
