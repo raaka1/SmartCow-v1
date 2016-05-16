@@ -135,7 +135,7 @@ background-color: rgba(0, 0, 0, 0.5);
 .navbar-default .nav li a:hover {
     transition: color .5s,
                 background-color .5s;
-    background-color: #000;                
+    background-color: #000;
     color: #fed136;
     outline: 0
 }
@@ -586,8 +586,18 @@ section#contact .text-danger {
 section#contact .email-list {
     list-style-type: none;
 }
-section#contact .email-list i {
-    color: #fed136;
+section#contact .email-list li {
+  margin: 10px;
+}
+section#contact .email-list a {
+  padding: 5px;
+  background-color: #000;
+}
+section#contact .email-list a:hover {
+  color: #000;
+  background-color: #fed136;
+  transition: color .5s,
+      background-color .5s;
 }
 footer {
     padding: 25px 0;
